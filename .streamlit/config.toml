@@ -1,0 +1,8 @@
+[server]
+runOnSave = false
+# The source watcher walks every imported module; transformers' lazy vision
+# modules then raise noisy torchvision import errors. Not needed for this app.
+fileWatcherType = "none"
+
+[theme]
+primaryColor = "#2a78d6"
